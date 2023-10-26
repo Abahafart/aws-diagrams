@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-09-27T13:25:23.446Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.8.2 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="J9uH5djFjW4ulhocpFxj" version="21.8.2" type="device">
+  <diagram name="Page-1" id="hPMrv_gNLxlbVWxgK_LG">
+    <mxGraphModel dx="2074" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t0r2nMiQO9CvB49lToCA-1" value="&lt;h1&gt;{&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp;&quot;Version&quot;: &quot;2012-10-17&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp;&quot;Statement&quot;: [&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; {&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Effect&quot;: &quot;Allow&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Action&quot;: [&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:DescribeSecurityGroups&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:DescribeSecurityGroupRules&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:DescribeTags&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Resource&quot;: &quot;*&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; },&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; {&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Effect&quot;: &quot;Allow&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Action&quot;: [&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:AuthorizeSecurityGroupIngress&quot;,&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:RevokeSecurityGroupIngress&quot;,&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:AuthorizeSecurityGroupEgress&quot;,&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:RevokeSecurityGroupEgress&quot;,&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:ModifySecurityGroupRules&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:UpdateSecurityGroupRuleDescriptionsIngress&quot;,&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:UpdateSecurityGroupRuleDescriptionsEgress&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Resource&quot;: [&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;arn:aws:ec2:region:111122223333:security-group/*&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Condition&quot;: {&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;StringEquals&quot;: {&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;aws:ResourceTag/Department&quot;: &quot;Test&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;},&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Effect&quot;: &quot;Deny&quot;,&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Action&quot;: [&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;ec2:ModifySecurityGroupRules&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Resource&quot;: [&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;arn:aws:ec2:region:111122223333:security-group-rule/*&quot;&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;/h1&gt;&lt;h1&gt;&amp;nbsp; &amp;nbsp;]&lt;/h1&gt;&lt;h1&gt;}&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="740" height="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="490" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="830" width="670" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t0r2nMiQO9CvB49lToCA-5" target="t0r2nMiQO9CvB49lToCA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1730" width="710" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="t0r2nMiQO9CvB49lToCA-7" target="t0r2nMiQO9CvB49lToCA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="920" width="630" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t0r2nMiQO9CvB49lToCA-8" target="t0r2nMiQO9CvB49lToCA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1950" width="670" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t0r2nMiQO9CvB49lToCA-9" target="t0r2nMiQO9CvB49lToCA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;You can do&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="475" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="t0r2nMiQO9CvB49lToCA-4" target="t0r2nMiQO9CvB49lToCA-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="800" as="sourcePoint" />
+            <mxPoint x="450" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;You can not do&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1730" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Interacting with&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="2000" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Attempting to perform on that resource&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1105" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Groups are not a true identity. They can&#39;t be referenced as a principal in a policy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="800" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5000 maximum user peer account&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="870" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0r2nMiQO9CvB49lToCA-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Groups can not do login&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="910" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
